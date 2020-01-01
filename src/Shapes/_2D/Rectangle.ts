@@ -1,6 +1,5 @@
-import ShapeBase=Shapes.Common.ShapeBase;
 namespace Shapes._2D{
-    export class Rectangle extends ShapeBase{
+    export class Rectangle extends Common.ShapeBase{
         
         constructor(public length:number,public breadth:number){
             super();
