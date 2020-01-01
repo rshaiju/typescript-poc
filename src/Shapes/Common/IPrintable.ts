@@ -1,4 +1,4 @@
 
-    export interface IPrintable{
+    export default interface IPrintable{
         print():void;
     }

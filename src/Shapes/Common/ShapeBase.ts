@@ -1,5 +1,5 @@
-import {IPrintable} from './IPrintable'
-import {IShape} from './IShape'
+import IPrintable from './IPrintable'
+import IShape from './IShape'
 
 
     export abstract class ShapeBase implements IShape,IPrintable {

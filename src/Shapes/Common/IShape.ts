@@ -1,4 +1,4 @@
 
-    export interface IShape{
+    export default interface IShape{
         getArea():number;
     }
