@@ -1,4 +1,7 @@
-namespace Shapes.Common{
+import {IPrintable} from './IPrintable'
+import {IShape} from './IShape'
+
+
     export abstract class ShapeBase implements IShape,IPrintable {
 
         constructor(){
@@ -14,4 +17,3 @@ namespace Shapes.Common{
         }
        
     }
-}

@@ -1,5 +1,6 @@
-namespace Shapes._2D{
-    export class Rectangle extends Common.ShapeBase{
+import {ShapeBase} from './Common/ShapeBase'
+
+    class Rectangle extends ShapeBase{
         
         constructor(public length:number,public breadth:number){
             super();
@@ -18,4 +19,5 @@ namespace Shapes._2D{
             super.print();
         } 
     }
-}
+
+    export {Rectangle}

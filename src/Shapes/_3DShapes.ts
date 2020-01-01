@@ -1,6 +1,6 @@
-namespace Shapes{
-    export namespace _3D{
-        export class Cube extends Shapes.Common.ShapeBase {
+import {ShapeBase} from './Common/ShapeBase'
+
+        class Cube extends ShapeBase {
             constructor(public side:number) {
                 super();
             }
@@ -11,5 +11,4 @@ namespace Shapes{
                 return "Cube";
             }
         }
-    }
-}
+    export{Cube}
